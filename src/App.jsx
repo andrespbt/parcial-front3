@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Card } from './components/Card';
 
 export const App = () => {
-  const [formValues, setFormValues] = useState({ name: '', password: '' });
+  const [formValues, setFormValues] = useState({ name: '', color: '' });
   const [isErrors, setIsErrors] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
 

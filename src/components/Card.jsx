@@ -1,4 +1,5 @@
 export const Card = ({ name, color }) => {
+  console.log(color);
   return (
     <div className="mt-8 border-2 border-black p-8 rounded-md">
       <h2 className="mb-2 font-bold">Hola {name}!</h2>
